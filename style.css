@@ -1,0 +1,30 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-content: center;
+    height: 700px;
+    width: 500px;
+    border: 3mm;
+    border-color: black;
+    border-style: ridge;
+    margin: auto;
+
+}
+
+#display {
+    align-self: center;
+    height: 50px;
+    width: 150px;
+    background-color: blue;
+}
+
+.buttonRow {
+    align-self: center;
+}
+
+button {
+    border-radius: 8px;
+    font-size: 40px;
+    background-color: rgb(144, 178, 75);
+  }
